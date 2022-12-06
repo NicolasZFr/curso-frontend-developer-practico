@@ -98,6 +98,23 @@
 /* Carrito de compras */
 
 .product-detail {
+  position: fixed;
+  right: 0;
+  top: 11vh;
   width: 360px;
+  height: 89vh;
   padding-right: 3vw;
+}
+
+/* Lista de productos */
+
+.cards-container {
+  grid-template-columns: repeat(auto-fill, 240px);
+}
+.product-card {
+  width: 240px;
+}
+.product-card img {
+  width: 240px;
+  height: 240px;
 }
