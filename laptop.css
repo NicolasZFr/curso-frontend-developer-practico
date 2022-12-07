@@ -123,4 +123,24 @@
 
 .product-detail {
   width: 360px;
+  padding: 1vh 1vw;
+}
+
+.product-detail .product-info {
+  margin: 5% 0 0 0;
+}
+
+.product-detail-close {
+  left: 7%;
+}
+
+.product-detail .product-info p:nth-child(1) { /* Precio */
+  margin-bottom: 8px;
+}
+.product-detail .product-info p:nth-child(2) { /* Nombre */
+  margin-bottom: 24px;
+}
+
+.product-detail .product-info p:nth-child(3) { /* Descripción */
+  margin-bottom: 24px;
 }
