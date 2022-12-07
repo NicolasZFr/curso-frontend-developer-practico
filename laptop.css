@@ -97,7 +97,7 @@
 
 /* Carrito de compras */
 
-.product-detail {
+.product-drop {
   position: fixed;
   right: 0;
   top: 11vh;
@@ -117,4 +117,10 @@
 .product-card img {
   width: 240px;
   height: 240px;
+}
+
+/* Detalles de producto */
+
+.product-detail {
+  width: 360px;
 }
